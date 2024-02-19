@@ -1,0 +1,24 @@
+/* ---- CSS Demo ---- */
+
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  /* ------ Global Styles ------ */
+  /* color codes for chosen theme: #F77E14 */
+
+  body{
+    background-color: #BDCAF2;
+    font-family: "Titillium Web", sans-serif;
+  }
+
+  header.primary{
+    background-color: #F277DE;
+  }
