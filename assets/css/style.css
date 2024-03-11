@@ -21,14 +21,16 @@ h1 {
     margin-bottom: 100px;
 }
 
-nav ul{
+nav ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     justify-content: space-around;
 }
 
+
 nav ul li{
     list-style-type: none;
+    margin: 25px;
 }
 
 nav a{
