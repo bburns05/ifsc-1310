@@ -1,0 +1,140 @@
+/* Important Code */
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+  @media screen and (max-width:600px){
+    header.primary ul{
+      flex-direction: column;
+      gap: 20px;
+      max-width: 250px;
+      margin: auto;
+    }
+  
+    header.primary nav a{
+      display:block;
+    }
+  }
+
+  /* ------ Utility Classes (makes content flow better, and better margins) ------ */
+
+  .container{
+    max-width: 600px;
+    width: 80vw;
+    margin: 20px auto;
+  }
+
+  .img-left{
+    float:left;
+    margin: 10px 20px 10px 0;
+    border: 3px solid #5C4B51;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  /* ------ Responsive Images ------ */
+ img{
+    max-width:100%;
+   }
+
+
+   body{
+    background-color: #8F949F;
+    margin: 0;
+    font-family: "Lilita One", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1.1px;
+   }
+
+   header.primary{
+    background-color: #3F3840;
+   color:#ffffff;
+   text-align: center;
+   text-shadow: 3px 3px 13px #5C4B51;
+   padding: 8px;
+ }
+
+ header.primary img{
+    max-width: 400px;
+    justify-content: center;
+    margin-left: 75px;
+    margin-top: -55px;
+    margin-bottom: -35px;
+ }
+
+   header.primary h1 {
+    font-size: 5rem;
+    margin: 20px 0 0;
+    font-family: 'BankGothic Md BT', sans-serif;
+  }
+  
+  header.primary h2{
+    margin: 0;
+    font-size: 1.7rem;
+    font-family: 'BankGothic Md BT', sans-serif;
+    margin-top: 10px;
+    letter-spacing: 1.4px;
+  }
+  
+  header.primary nav{
+    max-width: 900px;
+    margin: 25px auto;
+    font-family: 'BankGothic Md BT', sans-serif;
+    font-size: 2rem;
+  }
+  
+  header.primary ul{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  header.primary ul li{
+    list-style-type: none;
+  }
+  
+  header.primary nav a{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #5C4B51;
+    background-color: rgba(0, 0, 0, .4);
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 3px inset #EB583B;
+    transition: 0.2s;
+  }
+  
+  header.primary nav a:hover{
+    background-color: rgba(235, 88, 59, .7);
+  }
+
+  #heading blockquote{
+    border: 8px double #EB583B;
+    padding: 20px 40px;
+    margin: 30px 60px;
+    border-radius: 50px 0;
+    background-color: #3F3840;
+    color: #ffffff;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  #footermain{
+   text-align: center;
+   background-color: #3F3840;
+   color: #F0F1F0;
+   padding: 20px;
+  font-size: 1.5rem;
+  
+  }
+
+#footermain a{
+    color: inherit;
+  }
