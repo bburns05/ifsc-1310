@@ -11,6 +11,7 @@ html {
 
 body{
     background-color: #A6A08D;
+    margin-left: 60px;
 }
 
 h1 {
@@ -30,7 +31,7 @@ nav ul {
 
 nav ul li{
     list-style-type: none;
-    margin: 25px;
+    margin-top: 45px;
 }
 
 nav a{
